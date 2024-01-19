@@ -16,7 +16,7 @@ The models are trained to classify images into specific flower categories. <br>
 ## Data 
 This data has been taken from aiplane.com - https://aiplanet.com/challenges/61/data-sprint-25-flower-recognition-61/overview/about <br>
 The dataset consists of images of 5 flower species, and the model aims to predict the correct flower category for a given image. <br>
-The train, test and validation data could be found here - [https://pitt-my.sharepoint.com/:f:/g/personal/yak39_pitt_edu/EotbgAlZtOpOkPUxuyLVcDUBmZnLiKGu3pr9zqBReZSbaw?e=rUGIkz] <br>
+The train, test and validation data could be found here - https://pitt-my.sharepoint.com/:f:/g/personal/yak39_pitt_edu/EotbgAlZtOpOkPUxuyLVcDUBmZnLiKGu3pr9zqBReZSbaw?e=rUGIkz <br>
 Each folder contains 5 folders corresponding to each flower species. <br>
 
 ## Method 
@@ -24,8 +24,8 @@ We first build a simple Sequential CNN model with convolutional layers for featu
 We then add complexity to this model by adding dense layers followed by dropout layers with a dropout rate of 0.5 for regularization and improved generalization. <br>
 
 ## Result 
-1. Inreasing complexity of the model does not always help in better learning. 
+1. Though our validation accuracy increased from 65% to 70%, inreasing complexity of the model does not always help in better learning. 
 2. We tested various ranges of hyperparameters like number of epochs (5,10,15,20) and learning rate (0.1, 0.001, 0.0001) and went ahead with choices optimized for maximum accuracy and precision. 
-3. Having more data might be useful (not always the case) as our train set, test set and validation set has only 2193, 277 and 276 images, repsectively. 
+3. Having more data would be useful here (not always the case) as our train set, test set and validation set has only 2193, 277 and 276 images, repsectively. 
 
 
